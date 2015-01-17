@@ -37,20 +37,20 @@ struct COMMENT_MAP {
 	};
 
 COMMENT_MAP comment_map[] = {
- { "Crown", "M220 S70\nM1203 A44 D33" },
- { "Loop", "M220 80\nM1203 A66 D44" },
- { "Perimeter", "M220 40\nM1203 A44 D33" },
- { "Pillar", "M220 100\nM1203 A66 D44" },
- { "Prime Pillar", "M220 100\nM1203 A66 D44" },
- { "Raft", "M220 100\nM1203 A66 D44" },
- { "Skirt", "M220 100\nM1203 A66 D44" },
- { "Solid", "M220 100\nM1203 A66 D44" },
- { "Sparse Infill", "M220 100\nM1203 A66 D44" },
- { "Stacked Sparse Infill", "M220 100\nM1203 A66 D44" },
- { "Support (may Stack)", "M220 100\nM1203 A66 D44" },
- { "Support Interface", "M220 100\nM1203 A66 D44" },
- { "Destring/Wipe/Jump", "M220 100\nM1203 A66 D44" },
- { "Jump", "M220 100\nM1203 A66 D44" },
+ { "Crown", "M220 S80\nM1203 A66 D44" },
+ { "Loop", "M220 S80\nM1203 A66 D44" },
+ { "Perimeter", "M220 S40\nM1203 A44 D33" },
+ { "Pillar", "M220 S100\nM1203 A66 D44" },
+ { "Prime Pillar", "M220 S100\nM1203 A66 D44" },
+ { "Raft", "M220 S100\nM1203 A66 D44" },
+ { "Skirt", "M220 S100\nM1203 A66 D44" },
+ { "Solid", "M220 S80\nM1203 A66 D44" },
+ { "Sparse Infill", "M220 S100\nM1203 A66 D44" },
+ { "Stacked Sparse Infill", "M220 S100\nM1203 A66 D44" },
+ { "Support (may Stack)", "M220 S100\nM1203 A66 D44" },
+ { "Support Interface", "M220 S100\nM1203 A66 D44" },
+ { "Destring/Wipe/Jump", "MM220 S100\nM1203 A66 D44" },
+ { "Jump", "M220 S100\nM1203 A66 D44" },
 };
 
 #define DIM(x) (sizeof(x)/sizeof(x[0]))
