@@ -37,7 +37,7 @@ struct COMMENT_MAP {
 	};
 
 COMMENT_MAP comment_map[] = {
- { "Crown", "M220 S80\nM1203 A44 D33" },
+ { "Crown", "M220 S70\nM1203 A44 D33" },
  { "Loop", "M220 80\nM1203 A66 D44" },
  { "Perimeter", "M220 40\nM1203 A44 D33" },
  { "Pillar", "M220 100\nM1203 A66 D44" },
